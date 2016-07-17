@@ -1,0 +1,38 @@
+
+    * {
+    margin: 0;
+    }
+    html, body {
+    height: 100%;
+      position: relative;
+    }
+    header{
+       background-color:#820035; 
+        color: #fff;
+        text-align: center;
+       
+        font-size:1.5em; 
+    }
+    .wrapper {
+    min-height:120%;
+    height: auto !important;
+    height: 120%;
+    margin: 0 auto 0;
+   
+    background-color:#3F2A82;
+    color: #fff;
+    text-align: center;
+    font-size:1.5em;
+    }
+   
+    footer, .push {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        background-color:#820035;
+        color: #fff;
+        text-align: center;
+        font-size:1.5em;
+        width: 100%;
+    }
+    
