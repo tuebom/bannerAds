@@ -66,7 +66,7 @@
     <gap:plugin name="org.apache.cordova.vibration" />
 
     <plugin spec="https://github.com/floatinghotpot/cordova-admob-pro.git" source="git" />
-
+    
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--
@@ -102,8 +102,6 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"          gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
-	<gap:plugin name="cordova-plugin-admobpro" source=“npm"/>
-	
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
     <string>100</string>
     </gap:config-file>
