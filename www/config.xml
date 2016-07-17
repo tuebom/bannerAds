@@ -12,7 +12,7 @@
         Banner Ads sample application.
     </description>
 
-    <author href="https://github.com/pwirya/sarasamuscaya" email="tuebom.wirya@gmail.com">
+    <author href="https://github.com/tuebom/bannerAds" email="tuebom.wirya@gmail.com">
         Putu Wirya
     </author>
 
@@ -64,6 +64,8 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
+
+    <gap:plugin name="cordova-plugin-admobpro" source=“npm"/>
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
