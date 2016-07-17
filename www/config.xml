@@ -65,7 +65,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
 
-    <gap:plugin name="cordova-plugin-admobpro" source=“npm"/>
+    <plugin spec="https://github.com/floatinghotpot/cordova-admob-pro.git" source="git" />
 
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
